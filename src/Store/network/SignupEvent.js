@@ -1,4 +1,4 @@
-import RestApiClient from '../network/RestApiClient';
+import RestApiClient from './RestApiClient';
 
 export default class SignupEvent {
   doSignup = (data) => {
