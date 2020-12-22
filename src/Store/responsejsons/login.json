@@ -1,0 +1,127 @@
+{
+    "data":{
+       "user":{
+          "id":26,
+          "firstName":"Harsh",
+          "lastName":"Pinto",
+          "email":"harshapaul.pinto@v2solutions.com",
+          "username":"harshapaul",
+          "roleId":4,
+          "active":true,
+          "lastLogin":"2020-11-18T07:30:44.934Z",
+          "private":false,
+          "aboutMe":"This is about me 2",
+          "profileImageName":"1605614665409-Simulator Screen Shot - iPhone 11 - 2020-11-04 at 13.35.26.png",
+          "createdAt":"2020-10-13T11:32:52.000Z",
+          "role":{
+             "id":4,
+             "name":"end_user"
+          }
+       },
+       "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjYsImVtYWlsIjoiaGFyc2hhcGF1bC5waW50b0B2MnNvbHV0aW9ucy5jb20iLCJpYXQiOjE2MDU2ODQ2NDR9.mCrKnHpCr6YhMdWqx7r6nOKX6Ddeq9Hn4-xXTba8StY"
+    },
+    "status":200,
+    "headers":{
+       "set-cookie":[
+          "jwt=s%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjYsImVtYWlsIjoiaGFyc2hhcGF1bC5waW50b0B2MnNvbHV0aW9ucy5jb20iLCJpYXQiOjE2MDU2ODQ2NDR9.mCrKnHpCr6YhMdWqx7r6nOKX6Ddeq9Hn4-xXTba8StY.iPF9nqZmBcjrBLY2cPur1Pm%2Fta0AsUHvnin29riNIgc; Path=/; HttpOnly; Secure; SameSite=None"
+       ],
+       "strict-transport-security":"max-age=15778476; includeSubDomains",
+       "content-type":"application/json; charset=utf-8",
+       "date":"Wed, 18 Nov 2020 07:30:44 GMT",
+       "x-frame-options":"SAMEORIGIN",
+       "x-xss-protection":"1; mode=block",
+       "vary":"X-HTTP-Method-Override, Origin, Accept-Encoding",
+       "etag":"W/\"24e-sY/g0O8vJen4300dTKOGbEJ6+UA\"",
+       "access-control-allow-credentials":"true",
+       "server":"nginx/1.19.3",
+       "x-download-options":"noopen",
+       "x-content-type-options":"nosniff",
+       "content-length":"590"
+    },
+    "config":{
+       "url":"/sessions",
+       "method":"post",
+       "data":"{\"usernameOrEmail\":\"harshapaul\",\"password\":\"mail_123\"}",
+       "headers":{
+          "Accept":"application/json, text/plain, */*",
+          "Content-Type":"application/json;charset=utf-8"
+       },
+       "baseURL":"https://dev.findcenter.com/api",
+       "transformRequest":[
+          null
+       ],
+       "transformResponse":[
+          null
+       ],
+       "timeout":10000,
+       "withCredentials":true,
+       "xsrfCookieName":"XSRF-TOKEN",
+       "xsrfHeaderName":"X-XSRF-TOKEN",
+       "maxContentLength":-1,
+       "maxBodyLength":-1
+    },
+    "request":{
+       "UNSENT":0,
+       "OPENED":1,
+       "HEADERS_RECEIVED":2,
+       "LOADING":3,
+       "DONE":4,
+       "readyState":4,
+       "status":200,
+       "timeout":10000,
+       "withCredentials":true,
+       "upload":{
+          
+       },
+       "_aborted":false,
+       "_hasError":false,
+       "_method":"POST",
+       "_perfKey":"network_XMLHttpRequest_https://dev.findcenter.com/api/sessions",
+       "_response":"{\"user\":{\"id\":26,\"firstName\":\"Harsh\",\"lastName\":\"Pinto\",\"email\":\"harshapaul.pinto@v2solutions.com\",\"username\":\"harshapaul\",\"roleId\":4,\"active\":true,\"lastLogin\":\"2020-11-18T07:30:44.934Z\",\"private\":false,\"aboutMe\":\"This is about me 2\",\"profileImageName\":\"1605614665409-Simulator Screen Shot - iPhone 11 - 2020-11-04 at 13.35.26.png\",\"createdAt\":\"2020-10-13T11:32:52.000Z\",\"role\":{\"id\":4,\"name\":\"end_user\"}},\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjYsImVtYWlsIjoiaGFyc2hhcGF1bC5waW50b0B2MnNvbHV0aW9ucy5jb20iLCJpYXQiOjE2MDU2ODQ2NDR9.mCrKnHpCr6YhMdWqx7r6nOKX6Ddeq9Hn4-xXTba8StY\"}",
+       "_url":"https://dev.findcenter.com/api/sessions",
+       "_timedOut":false,
+       "_trackingName":"unknown",
+       "_incrementalEvents":false,
+       "responseHeaders":{
+          "set-cookie":"jwt=s%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjYsImVtYWlsIjoiaGFyc2hhcGF1bC5waW50b0B2MnNvbHV0aW9ucy5jb20iLCJpYXQiOjE2MDU2ODQ2NDR9.mCrKnHpCr6YhMdWqx7r6nOKX6Ddeq9Hn4-xXTba8StY.iPF9nqZmBcjrBLY2cPur1Pm%2Fta0AsUHvnin29riNIgc; Path=/; HttpOnly; Secure; SameSite=None",
+          "strict-transport-security":"max-age=15778476; includeSubDomains",
+          "content-type":"application/json; charset=utf-8",
+          "date":"Wed, 18 Nov 2020 07:30:44 GMT",
+          "x-frame-options":"SAMEORIGIN",
+          "x-xss-protection":"1; mode=block",
+          "vary":"X-HTTP-Method-Override, Origin, Accept-Encoding",
+          "etag":"W/\"24e-sY/g0O8vJen4300dTKOGbEJ6+UA\"",
+          "access-control-allow-credentials":"true",
+          "server":"nginx/1.19.3",
+          "x-download-options":"noopen",
+          "x-content-type-options":"nosniff",
+          "content-length":"590"
+       },
+       "_requestId":null,
+       "_headers":{
+          "accept":"application/json, text/plain, */*",
+          "content-type":"application/json;charset=utf-8"
+       },
+       "_responseType":"",
+       "_sent":true,
+       "_lowerCaseResponseHeaders":{
+          "set-cookie":"jwt=s%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjYsImVtYWlsIjoiaGFyc2hhcGF1bC5waW50b0B2MnNvbHV0aW9ucy5jb20iLCJpYXQiOjE2MDU2ODQ2NDR9.mCrKnHpCr6YhMdWqx7r6nOKX6Ddeq9Hn4-xXTba8StY.iPF9nqZmBcjrBLY2cPur1Pm%2Fta0AsUHvnin29riNIgc; Path=/; HttpOnly; Secure; SameSite=None",
+          "strict-transport-security":"max-age=15778476; includeSubDomains",
+          "content-type":"application/json; charset=utf-8",
+          "date":"Wed, 18 Nov 2020 07:30:44 GMT",
+          "x-frame-options":"SAMEORIGIN",
+          "x-xss-protection":"1; mode=block",
+          "vary":"X-HTTP-Method-Override, Origin, Accept-Encoding",
+          "etag":"W/\"24e-sY/g0O8vJen4300dTKOGbEJ6+UA\"",
+          "access-control-allow-credentials":"true",
+          "server":"nginx/1.19.3",
+          "x-download-options":"noopen",
+          "x-content-type-options":"nosniff",
+          "content-length":"590"
+       },
+       "_subscriptions":[
+          
+       ],
+       "responseURL":"https://dev.findcenter.com/api/sessions"
+    }
+ }
